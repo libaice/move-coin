@@ -41,3 +41,7 @@
 
     and my another wallet coin value has increased 33333
     https://fullnode.testnet.aptoslabs.com/v1/accounts/0xd7d1b12297217d5ded851c03c28ed98085997c058402dc27045fec49efbf1270/resource/0x85c30a87fb365137ac507ed2daa316a21f8b1f64bcd28f0adea60f4f8a1e1cc7::TestCoin::CoinStore
+
+11. Test burn my token from my resources
+    `aptos move run --function-id 'default::TestCoin::burn' --args  u128:667 `
+    and then the coinStore value decrease 667 
